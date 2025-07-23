@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="tailwind.css">
 </head>
 <body>
-    <header class="flex justify-between mx-[150px] my-[30px] items-center">
-        <div>
-            <img src="assets/logo.png" alt="">
-        </div>
-        <div class="flex justify-between text-[16px]">
-            <p><a class="font-bold" href="">Home</a></p>
-            <p><a class="ml-12" href="">Shop</a></p>
-            <p><a class="ml-12" href="">About Us</a></p>
-            <p><a class="ml-12" href=""><i class='bx bx-cart bx-sm'></i></a></p>
-            <p><a href="">Cart($56)</a></p>
-        </div>
+    <header>
+        <nav class="flex justify-between mx-4 lg:mx-[150px] my-[13px] lg:my-[30px] items-center">
+            <div>
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="flex justify-between text-[16px] max-w-[120px] lg:max-w-[415px]">
+                <p><a class="invisible lg:visible font-bold" href="">Home</a></p>
+                <p><a class="invisible lg:visible ml-12 text-[#8987A1]" href="">Shop</a></p>
+                <p><a class="invisible lg:visible ml-12 text-[#8987A1]" href="">About Us</a></p>
+                <p><a class="ml-12" href=""><i class='bx bx-cart bx-sm'></i></a></p>
+                <p><a href="">Cart($56)</a></p>
+            </div>
+        </nav>
     </header>
 </body>
 </html>
