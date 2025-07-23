@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Responsive Flower Shop</title>
+    <link rel="stylesheet" href="tailwind.css">
 </head>
 <body>
-    
+    <header class="flex justify-between mx-[150px] my-[30px] items-center">
+        <div>
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div class="flex justify-between text-[16px]">
+            <p><a class="font-bold" href="">Home</a></p>
+            <p><a class="ml-12" href="">Shop</a></p>
+            <p><a class="ml-12" href="">About Us</a></p>
+            <p><a class="ml-12" href=""><i class='bx bx-cart bx-sm'></i></a></p>
+            <p><a href="">Cart($56)</a></p>
+        </div>
+    </header>
 </body>
 </html>
